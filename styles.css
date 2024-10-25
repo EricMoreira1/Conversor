@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #ff0037, #ff7d13, #ffe15c); /* Cor de fundo suave */
+    background: linear-gradient(135deg, #55007c, #ff0055, #ff7d13, #ffe15c); /* Cor de fundo suave */
     color: #333; /* Cor do texto */
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
@@ -52,7 +52,7 @@ button:hover {
     background-color: #b30062; /* Cor do botão ao passar o mouse */
 }
  
-#resultado {
+#conversao {
     margin-top: 20px; /* Espaçamento acima do resultado */
     font-weight: bold; /* Negrito para o resultado */
     text-align: center; /* Centraliza o texto do resultado */

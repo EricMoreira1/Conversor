@@ -6,12 +6,13 @@
     <title>conversor de moeda</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='convert.js'></script>
+
 </head>
 <body>
+    <form id="conversor-Form">
     <div class="container">
         <h1>Conversor de Moedas</h1>
-        <form id="conversorForm">
+        
             <label for="valor">Valor:</label>
             <input type="number" id="valor" required>
  
@@ -28,10 +29,12 @@
                 <option value="USD">Dólar (USD)</option>
                 <option value="EUR">Euro (EUR)</option>
             </select>
- 
             <button type="submit">Converter</button>
-        </form>
-        <div id="resultado"></div>
-    </div>
+      <div id="conversao"></div>
+      </div>  
+   
+
+</form> 
+        <script src='convert.js'></script>
 </body>
 </html>
